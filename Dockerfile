@@ -10,7 +10,7 @@ COPY  requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-# Copy the res t of the application code to the container
+# Copy the rest of the application code to the container
 COPY . .
 
 
