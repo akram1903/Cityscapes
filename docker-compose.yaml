@@ -1,0 +1,9 @@
+services:
+  unet:
+    image: unet
+    container_name: unet_container
+    volumes:
+      - ${CITYSCAPES_PATH}:/app/data
+      - ${MODEL_DIRECTORY_PATH}:/app/
+    stdin_open: true  # Allows you to use -it equivalent in Docker run
+    tty: true         # Allows you to use -it equivalent in Docker run
