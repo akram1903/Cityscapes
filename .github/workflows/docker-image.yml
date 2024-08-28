@@ -19,6 +19,6 @@ jobs:
     - name: login
       run: echo ${{ secrets.DOCKER_HUB_TOKEN }} | docker login -u akramessam --password-stdin
     - name: Tag the Docker image
-      run: docker tag cityscapes:latest username/repo_name:latest
+      run: docker tag cityscapes:latest akramessam/cityscapes:latest
     - name: push the Docker image
-      run: docker push username/repo_name:latest
+      run: docker push akramessam/cityscapes:latest
