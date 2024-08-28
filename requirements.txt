@@ -1,0 +1,7 @@
+torchvision
+pandas
+tqdm
+matplotlib
+torchmetrics
+pytorch_toolbelt
+scikit-learn

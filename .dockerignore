@@ -1,0 +1,8 @@
+# ignoring csv files and notebooks
+cityscapes*
+
+# ignoring .gitignore file
+.gitignore
+
+# ignoring .dockerignore itself
+.dockerignore
